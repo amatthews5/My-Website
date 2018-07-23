@@ -1,0 +1,58 @@
+body {
+  font-family: 'Crimson Text', serif;
+  background-color: #ffcccc;
+}
+
+nav {
+    float: left;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+}
+
+article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background-color: #ffcccc;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.link a:hover {
+    background-color: #555;
+    color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  font-family: 'Signika', sans-serif;
+  font-size: 19px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.sites {
+  display: inline-block;
+}
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+  
